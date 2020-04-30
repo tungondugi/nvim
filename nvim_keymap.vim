@@ -1,3 +1,10 @@
+"Again we'll create a directory called keys and and a file called mappings.vim
+"mkdir ~/.config/nvim/keys
+"touch ~/.config/nvim/keys/mappings.vim
+
+
+"Add the following to mappings.vim:
+
 " Better nav for omnicomplete
 inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
@@ -42,3 +49,6 @@ nnoremap <C-l> <C-w>l
 
 nnoremap <Leader>o o<Esc>^Da
 nnoremap <Leader>O O<Esc>^Da
+
+"Source in init.vim
+"source $HOME/.config/nvim/keys/mappings.vim
